@@ -72,7 +72,7 @@ def results():
     y_labels = counterYearsKeys
     plt.figure(figsize=(44, 44))
     ax = freq_series.plot(kind='barh')
-    ax.set_title('Examine on popular TV shows in IMDB using web scraping')
+    ax.set_title('Analysis on popular TV shows in IMDB using web scraping')
     ax.set_xlabel('Number of series')
     ax.set_ylabel('Year')
     ax.set_yticklabels(y_labels)
@@ -116,9 +116,9 @@ def results():
     y_labels = counterRatingsKeys
     plt.figure(figsize=(44, 44))
     ax = freq_series.plot(kind='barh')
-    ax.set_title('Examine on popular TV shows in IMDB using web scraping')
+    ax.set_title('Analysis on popular TV shows in IMDB using web scraping')
     ax.set_xlabel('Number of series')
-    ax.set_ylabel('Year')
+    ax.set_ylabel('Rating')
     ax.set_yticklabels(y_labels)
     ax.set_xlim(0, 84) # expand xlim to make labels easier to read
     rects = ax.patches
